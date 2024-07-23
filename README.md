@@ -1,3 +1,15 @@
+# This is fork of simplex-chat with configuration and servers for i2p
+
+## Todo:
+1. change servers
+1. change network configuration proper way
+1. build for all platforms I can
+1. upload to f-droid
+
+## donation
+Monero: 848ULLDDJvqbq4q5KNjyXjX2yUhuzDTCEHFFz2vv4aAPHjQejsMntxuGfouHZvd1kkR8xWTYJhUT5jFj9WQusFk361VMKnb
+
+
 [![build](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml/badge.svg?branch=stable)](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml)
 [![GitHub downloads](https://img.shields.io/github/downloads/simplex-chat/simplex-chat/total)](https://github.com/simplex-chat/simplex-chat/releases)
 [![GitHub release](https://img.shields.io/github/v/release/simplex-chat/simplex-chat)](https://github.com/simplex-chat/simplex-chat/releases)
