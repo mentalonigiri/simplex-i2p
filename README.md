@@ -1,7 +1,7 @@
 # This is fork of simplex-chat with configuration and servers for i2p
 
 ## Todo:
-1. change servers
+1. change servers - done
 1. change network configuration proper way
 1. build for all platforms I can
 1. upload to f-droid
