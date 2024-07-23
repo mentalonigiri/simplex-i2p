@@ -2,9 +2,13 @@
 
 ## Todo:
 1. change servers - done
-1. change network configuration proper way
-1. build for all platforms I can
-1. upload to f-droid
+1. change network configuration proper way. Hint: configuration
+should be defined [here](https://github.com/mentalonigiri/simplex-i2p/blob/stable/src/Simplex/Chat.hs#L153) . NetworkConfig object is defined [here](https://github.com/simplex-chat/simplexmq/blob/stable/src/Simplex/Messaging/Client.hs#L325) .
+1. build for all platforms I can. Hint: `nix build --verbose --extra-experimental-features 'nix-command flakes' .#packages.x86_64-linux.exe:simplex-chat`
+1. upload to f-droid. Hint: [https://gitlab.com/fdroid/fdroiddata/-/blob/master/metadata/chat.simplex.app.yml](https://gitlab.com/fdroid/fdroiddata/-/blob/master/metadata/chat.simplex.app.yml)
+
+## Note:
+I can't build that, it goes out-of-memory and process dies. Maybe you can help?
 
 ## donation
 Monero: 848ULLDDJvqbq4q5KNjyXjX2yUhuzDTCEHFFz2vv4aAPHjQejsMntxuGfouHZvd1kkR8xWTYJhUT5jFj9WQusFk361VMKnb
